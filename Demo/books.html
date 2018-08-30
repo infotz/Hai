@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="ta">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, maximum-scale=1">
+<title></title>
+<link href="https://fonts.googleapis.com/css?family=Catamaran:300,400" rel="stylesheet">
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css"> 
+<link href="css/font-awesome.css" rel="stylesheet" type="text/css"> 
+<link href="css/animate.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+</head>
+<body>
+<div id="fancyimg" style="background-color:rgba(0,0,0,0.5); display:none;">
+					<div class="fancy-content">
+					<img src="img/RaniNelaveni.jpg">
+					<span class="close" onclick="document.getElementById('fancyimg').style.display='none'">&times;</span>
+					</div>		
+					
+					</div>
+<!--Header_section-->
+<header id="header_wrapper">
+  <div class="container">
+    <div class="header_box">
+      <div class="logo"><a href="index.html"><img src="img/logo.png" alt="logo"></a></div>
+	  <nav class="navbar navbar-inverse" role="navigation">
+      <div class="navbar-header">
+        <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+        </div>
+	    <div id="main-nav" class="collapse navbar-collapse navStyle">
+			<ul class="nav navbar-nav" id="mainNav">
+			  <li><a href="index.html">Home</a></li>
+			  <li><a href="about.html">About Us</a></li>
+			  <li class="active"><a href="books.html">Books</a></li>
+			  <li><a href="#">News</a></li>
+			  <li><a href="contact.html">Contact</a></li>
+			  <!--<li><a href="#service" class="scroll-link">Services</a></li>
+			  <li><a href="#Portfolio" class="scroll-link">Portfolio</a></li>
+			  <li><a href="#clients" class="scroll-link">Clients</a></li>
+			  <li><a href="#team" class="scroll-link">Team</a></li>
+			  <li><a href="#contact" class="scroll-link">Contact</a></li>-->
+			</ul>
+      </div>
+	   <div id="main-nav" class="medias">
+			<ul class="social_links">
+				<li class="twitter animated bounceIn wow delay-02s"><a href="javascript:void(0)"><i class="fa fa-twitter"></i></a></li>
+				<li class="facebook animated bounceIn wow delay-03s"><a href="javascript:void(0)"><i class="fa fa-facebook"></i></a></li>          
+				<li class="pinterest animated bounceIn wow delay-04s"><a href="javascript:void(0)"><i class="fa fa-pinterest"></i></a></li>
+				<li class="gplus animated bounceIn wow delay-05s"><a href="javascript:void(0)"><i class="fa fa-google-plus"></i></a></li> 
+          </ul>
+	   </div>
+	 </nav>
+    </div>
+  </div>
+</header>
+<!--Header_section--> 
+
+<!--Hero_Section-->
+<section id="hero_section" class="top_cont_outer">
+  <div class="hero_wrapper">
+    <div class="container">
+	<h1 style="color:white;">Our Books</h1>
+		<!--<div class="hero_section">
+			
+		</div>-->
+	</div>
+  </div>
+</section>
+<!--Hero_Section-->
+
+<section id="portfolio">
+
+<div class="container">
+
+<div id="myBtnContainer">
+  <button class="btn active" onclick="columnSelection('all')"> Show all</button>
+  <button class="btn" onclick="columnSelection('nature')"> Nature</button>
+  <button class="btn" onclick="columnSelection('cars')"> Cars</button>
+  <button class="btn" onclick="columnSelection('people')"> People</button>
+</div>
+
+<!-------Images------>
+
+
+<!-- Portfolio Gallery Grid -->
+
+	<div class="portfo row wow fadeInLeft">
+	  <div class="col-lg-4 col-md-4 col-xs-6 col-sm-12 column nature">
+		<div class="content">
+		  <img src="img/Nelakesi.jpg" alt="Mountains" class="image" style="max-width:100%">
+		  <div class="overlay">
+				<div class="text">
+					<h4>View</h4>
+				</div>
+		  </div>
+		</div>
+		<h4>Mountains</h4>
+			<p>Lorem ipsum dolor..</p>
+	  </div>
+	  <div class="col-lg-4 col-md-4 col-xs-6 col-sm-12 column nature">
+		<div class="content">
+		<img src="img/PallavaPeralagi.jpg" alt="Lights" class="image" style="max-width:100%">
+		
+		 <div class="overlay">
+				<div class="text">
+					<h4>View</h4>
+					
+				</div>
+		  </div>
+		</div>
+		<h4>Mountains</h4>
+					<p>Lorem ipsum dolor..</p>
+	  </div>
+	  <div class="col-lg-4 col-md-4 col-xs-6 col-sm-12 column nature">
+		<div class="content">
+		<img src="img/Palur.jpg" alt="Nature" class="image" style="max-width:100%">
+		
+		  <div class="overlay">
+				<div class="text">
+					<h4>View</h4>
+				</div>
+		  </div>
+		</div>
+		<h4>Mountains</h4>
+					<p>Lorem ipsum dolor..</p>
+	  </div>
+	</div>
+	<div class="portfo row wow fadeInRight">  
+	  <div class="col-lg-4 col-md-4 col-xs-6 col-sm-12 column cars">
+		<div class="content">
+		  <img src="img/Pothitharuma.jpg" alt="Car" class="image" style="max-width:100%">
+		 
+		  <div class="overlay">
+				<div class="text">
+					<h4>View</h4>
+				</div>
+		  </div>
+		</div>
+		<h4>Mountains</h4>
+					<p>Lorem ipsum dolor..</p>
+	  </div>
+	  <div class="col-lg-4 col-md-4 col-xs-6 col-sm-12 column cars">
+		<div class="content">
+		<img src="img/Pothitharuma_1.jpg" alt="Car" class="image" style="max-width:100%">
+		
+		  <div class="overlay">
+				<div class="text">
+					<h4>View</h4>
+				</div>
+		  </div>
+		</div>
+		<h4>Mountains</h4>
+					<p>Lorem ipsum dolor..</p>
+	  </div>
+	  <div class="col-lg-4 col-md-4 col-xs-6 col-sm-12 column cars">
+		<div class="content">
+		<img src="img/Pothitharuma_3.jpg" alt="Car" class="image" style="max-width:100%">
+		
+		  <div class="overlay">
+				<div class="text">
+					<h4>View</h4>
+				</div>
+		  </div>
+		</div>
+		<h4>Mountains</h4>
+					<p>Lorem ipsum dolor..</p>
+	  </div>
+	</div>
+	<div class="portfo row wow fadeInLeft"> 
+	  <div class="col-lg-4 col-md-4 col-xs-6 col-sm-12 column people">
+		<div class="content">
+		  <img src="img/Promotions.jpg" alt="Car" class="image" style="max-width:100%">
+		  
+		  <div class="overlay">
+				<div class="text">
+					<h4>View</h4>
+				</div>
+		  </div>
+		</div>
+		<h4>Mountains</h4>
+					<p>Lorem ipsum dolor..</p>
+	  </div>
+	  <div class="col-lg-4 col-md-4 col-xs-6 col-sm-12 column people">
+		<div class="content">
+		<img src="img/RaniNelaveni.jpg" alt="Car" class="image" style="max-width:100%">
+		
+		  <div class="overlay">
+				<div class="text">
+					<h4 onclick="document.getElementById('fancyimg').style.display='block'" style="cursor: pointer;">View</h4>					
+				</div>
+		  </div>
+		 
+		</div>
+		<h4>Mountains</h4>
+					<p>Lorem ipsum dolor..</p>
+		 
+		
+	  </div>
+	  
+	  <div class="col-lg-4 col-md-4 col-xs-6 col-sm-12 column people">
+		<div class="cont">
+				<div class="content">
+		<img src="img/Nelakesi.jpg" alt="Car" class="image" style="max-width:100%">
+					
+		  <div class="overlay">
+				<div class="text">
+					<h4>View</h4>
+				</div>
+		  </div>
+		</div>
+		<h4>Mountains</h4>
+		<p>Lorem ipsum dolor..</p>
+		</div>
+		
+	  </div>	
+	</div>
+</div>
+</section>
+
+<script>
+columnSelection("all")
+function columnSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("column");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " ";
+  });
+}
+</script>
+<!--Footer-->
+<footer class="footer_wrapper" id="contact">
+  <div class="container">
+    <section class="page_section contact" id="contact">
+      <div class="contact_section">
+        <!--<h2>Contact Us</h2>-->
+        <div class="row">
+          <div class="col-lg-4">
+            
+          </div>
+          <div class="col-lg-4">
+           
+          </div>
+          <div class="col-lg-4">
+          
+          </div>
+        </div>
+      </div>
+      <div class="row"> 
+        <div class="col-lg-4 wow fadeInLeft delay-06s">	
+		 
+       		  <div>
+					<h3>Details</h3>
+					<p>பதியவும் விளக்கவும் பயன்படுத்தும் ஒரு வழியாகும். இதுவே அனைத்து சதுரங்க நிறுவனங்களில், புத்தகங்களில், சஞ்சிகைகளில் மற்றும் பத்திரிகைகளில்</p>
+			</div>
+			  
+          
+          
+        </div>
+        <div class="col-lg-4 wow fadeInLeft delay-07s">
+						<div class="contact_info">
+                            <div class="detail">
+                                <h4>UNIQUE Infoway</h4>
+                                <p>104, Some street, NewYork, USA</p>
+                            </div>
+                            <div class="detail">
+                                <h4>call us</h4>
+                                <p>+1 234 567890</p>
+                            </div>
+                            <div class="detail">
+                                <h4>Email us</h4>
+                                <p>support@sitename.com</p>
+                            </div> 
+                        </div>
+          <!---<div class="form">
+            <input class="input-text" type="text" name="" value="Your Name *" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;">
+            <input class="input-text" type="text" name="" value="Your E-mail *" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;">
+            <textarea class="input-text text-area" cols="0" rows="0" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;">Your Message *</textarea>
+            <input class="input-btn" type="submit" value="send message">
+          </div>-->
+        </div>
+		
+		
+		<div class="col-lg-4 wow fadeInLeft delay-08s">
+		
+		<div class="detail">
+                      <h4>Social-Media</h4>
+		<ul class="social_links">
+            <li class="twitter animated bounceIn wow delay-02s"><a href="javascript:void(0)"><i class="fa fa-twitter"></i></a></li>
+            <li class="facebook animated bounceIn wow delay-03s"><a href="javascript:void(0)"><i class="fa fa-facebook"></i></a></li>
+           
+          </ul>
+		  <ul class="social_links">
+          
+            <li class="pinterest animated bounceIn wow delay-04s"><a href="javascript:void(0)"><i class="fa fa-pinterest"></i></a></li>
+            <li class="gplus animated bounceIn wow delay-05s"><a href="javascript:void(0)"><i class="fa fa-google-plus"></i></a></li> 
+          </ul>         
+								
+                                
+         </div>
+          <!---<div class="form">
+            <input class="input-text" type="text" name="" value="Your Name *" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;">
+            <input class="input-text" type="text" name="" value="Your E-mail *" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;">
+            <textarea class="input-text text-area" cols="0" rows="0" onFocus="if(this.value==this.defaultValue)this.value='';" onBlur="if(this.value=='')this.value=this.defaultValue;">Your Message *</textarea>
+            <input class="input-btn" type="submit" value="send message">
+          </div>-->
+        </div>
+      </div>
+    </section>
+  </div>
+  <div class="container">
+    <div class="footer_bottom"><span>Copyright © 2018, All Rights Reserved</span> </div>
+  </div>
+</footer>
+<!--Footer-->
+
+<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/jquery-scrolltofixed.js"></script>
+<script type="text/javascript" src="js/jquery.nav.js"></script> 
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/jquery.isotope.js"></script>
+<script type="text/javascript" src="js/wow.js"></script> 
+<script type="text/javascript" src="js/custom.js"></script>
+
+<script src="https://www.w3schools.com/lib/w3.js"></script>
+
+</body>
+</html>
